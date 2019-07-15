@@ -1,0 +1,29 @@
+.page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.last-cheese {
+  align-self: center;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+}
+
+.last-cheese-image, .no-cheese-image {
+  height: 100px;
+}
+
+.cheese-tallies {
+  height: 70px;
+}
+
+.vote-button {
+  width: 30%;
+  &:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+}
