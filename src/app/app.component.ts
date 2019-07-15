@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
 
   private updateObservable = this.updateSubject.asObservable();
 
-  private processingUpdate = false;
+  public processingUpdate = false;
 
   public lastCheese: string;
 
