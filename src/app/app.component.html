@@ -4,12 +4,12 @@
 
     <div class="last-cheese">
       <img [@lastCheese]
-           [src]="'/assets/' + lastCheese + '.jpg'"
+           [src]="'assets/' + lastCheese + '.jpg'"
            class="last-cheese-image"
            *ngIf="lastCheese"/>
       <img *ngIf="!lastCheese && !processingUpdate"
            class="no-cheese-image"
-           src="/assets/no-cheese.jpg">
+           src="assets/no-cheese.jpg">
     </div>
 
     <ul class="cheese-tallies">
